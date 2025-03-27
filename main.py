@@ -39,7 +39,7 @@ def main():
                     jugador.recibir_danio(danio_enemigo)
             
             elif accion == "huir":
-                print(f'Has huido a salvo')
+                print('Has huido a salvo')
                 break
         
         if jugador.salud <= 0:
